@@ -53,3 +53,14 @@ switch(choice) {
     default:
         console.log("Invalid choice");
 }
+
+let arr3 = [1,"Hello",3,"Hi"];
+
+for(let i = 0; i < arr3.length; i++){
+    let v = arr3[i];
+    if (typeof v === "number"){
+        console.log(v," is a number")
+    }else{
+        console.log(v," v is not a number")
+    }
+}

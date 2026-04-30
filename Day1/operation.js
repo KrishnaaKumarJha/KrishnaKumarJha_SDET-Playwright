@@ -1,7 +1,7 @@
 let a = 10;
 let b = 3;
 
-let str = "Hello!";
+let str = "Hello! World";
 
 //Mathematical Operations
 console.log(a + b); // 13  (Addition)
@@ -23,6 +23,6 @@ console.log();
 
 //String Operations
 console.log(str.length);     // 6
-console.log(str.toUpperCase()); // HELLO!
-console.log(str.toLowerCase()); // hello!
+console.log(str.toUpperCase()); // HELLO! WORLD
+console.log(str.toLowerCase()); // hello! world
 console.log(str.substring(0,5)); //Hello

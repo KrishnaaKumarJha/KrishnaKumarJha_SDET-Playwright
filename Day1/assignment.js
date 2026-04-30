@@ -55,7 +55,7 @@ function exists(numbers){
     return false;
 }
 
-console.log(exists([10, 20, 30, 40, 50]));
+console.log(exists(numbers));
 
 for(let i = 0; i < numbers.length; i++){
     if(numbers[i] == 50){

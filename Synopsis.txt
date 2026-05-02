@@ -1,4 +1,4 @@
-//DAY 1
+-------------------------------------------------------------DAY 1--------------------------------------------------------------------------------------------
 -Worked with variables (let, var) to store values
     Syntax: let a = 10;
 -Performed basic mathematical operations (+, -, *, /, %)
@@ -20,7 +20,7 @@
 -Checked data types using typeof
     Syntax: typeof value;
 
-DAY 2
+-------------------------------------------------------------DAY 2--------------------------------------------------------------------------------------------
 -Used template literals for dynamic strings
     Syntax: Hello ${name};
 -Learned functions and arrow functions
@@ -39,3 +39,11 @@ DAY 2
     Syntax: arr.push("item");
 -Checked elements using indexOf() and includes()
     Syntax: arr.includes("apple");
+-Studied reduce() for summing values and processing arrays
+    Syntax: arr.reduce((acc, val) => acc + val, 0);
+-Used reduce() to count frequency of elements in an array
+    Syntax: acc[item] = (acc[item] || 0) + 1;
+-Practiced DOM manipulation to access and update HTML elements
+    Syntax: document.getElementById("id");
+-Built a simple login page using HTML, CSS, and JavaScript
+    Syntax: element.textContent = "message";

@@ -45,20 +45,8 @@ console.log("Array after deletion:",cart);
 let numbers = [10, 20, 30, 40, 50];
 console.log("Numbers Array:",numbers);
 
-function exists(numbers){
-    for(let i = 0; i < numbers.length; i++){
-        if(numbers[i] == 30){
-            console.log("exists at:", i);
-            return true;
-        }
-    }
-    return false;
-}
+let hasThirty = numbers.includes(30);
+let indexOfFifty = numbers.indexOf(50);
 
-console.log(exists(numbers));
-
-for(let i = 0; i < numbers.length; i++){
-    if(numbers[i] == 50){
-        console.log("50 exists at:",i);
-    }
-}
+console.log("Is 30 present?", hasThirty);
+console.log("Index of 50:", indexOfFifty);

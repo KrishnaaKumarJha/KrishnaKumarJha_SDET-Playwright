@@ -63,3 +63,22 @@ console.log(fruits);
 
 fruits.shift();
 console.log(fruits);
+
+// Array Reduce: Sum and Frequency Count
+
+// Sum of numbers using reduce
+const values = [12, 18, 25, 35];
+
+const total = values.reduce((sum, current) => sum + current, 0);
+console.log(total);
+
+
+// Count frequency of elements
+const items = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+
+const count = items.reduce((acc, item) => {
+    acc[item] = (acc[item] || 0) + 1;
+    return acc;
+}, {});
+
+console.log(count);

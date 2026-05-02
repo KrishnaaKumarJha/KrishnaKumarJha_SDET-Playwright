@@ -1,0 +1,41 @@
+//DAY 1
+-Worked with variables (let, var) to store values
+    Syntax: let a = 10;
+-Performed basic mathematical operations (+, -, *, /, %)
+    Syntax: a + b;
+-Learned comparison and logical operators (==, ===, >, <)
+    Syntax: 5 === "5";
+-Practiced string operations (length, uppercase, substring)
+    Syntax: str.toUpperCase();
+-Understood block scope vs global scope (let vs var)
+    Syntax: { let x = 10; var y = 20; }
+-Learned arrays and mixed data types
+    Syntax: let arr = [1, "Hello", true];
+-Used loops (for, while) to iterate
+    Syntax: for(let i = 0; i < arr.length; i++)
+-Applied conditional statements (if-else)
+    Syntax: if(i > j) {}
+-Used switch-case for multiple conditions
+    Syntax: switch(choice) {}
+-Checked data types using typeof
+    Syntax: typeof value;
+
+DAY 2
+-Used template literals for dynamic strings
+    Syntax: Hello ${name};
+-Learned functions and arrow functions
+    Syntax: const sum = (a, b) => a + b;
+-Practiced array methods (find, filter, map, forEach)
+    Syntax: arr.filter(x => x > 2);
+-Chained array methods
+    Syntax: arr.filter().map().forEach();
+-Generated random numbers using Math.random()
+    Syntax: Math.random();
+-Used Math functions (floor, ceil)
+    Syntax: Math.floor(3.7);
+-Performed type conversion (Number, String, parseInt, parseFloat)
+    Syntax: Number("5");
+-Worked with array operations (push, pop, shift, unshift)
+    Syntax: arr.push("item");
+-Checked elements using indexOf() and includes()
+    Syntax: arr.includes("apple");

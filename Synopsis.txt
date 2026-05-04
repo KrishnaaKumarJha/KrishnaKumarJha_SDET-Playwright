@@ -47,3 +47,9 @@
     Syntax: document.getElementById("id");
 -Built a simple login page using HTML, CSS, and JavaScript
     Syntax: element.textContent = "message";
+
+-------------------------------------------------------------DAY 3--------------------------------------------------------------------------------------------
+-Practiced array methods like forEach(), map(), filter(), and reduce() for iteration, transformation, and data processing.
+-Combined multiple array methods and used reduce() for advanced tasks like aggregation and flattening arrays.
+
+-------------------------------------------------------------DAY 4--------------------------------------------------------------------------------------------

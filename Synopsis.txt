@@ -53,3 +53,9 @@
 -Combined multiple array methods and used reduce() for advanced tasks like aggregation and flattening arrays.
 
 -------------------------------------------------------------DAY 4--------------------------------------------------------------------------------------------
+-Synchronous vs Asynchronous: Learned difference between blocking (sync) and non-blocking (async) execution using setTimeout() and setInterval().
+    Syntax: setTimeout(() => {}, 2000);
+-Promises: Used Promises to handle asynchronous operations with .then() and .catch() for success and error handling.
+    Syntax: new Promise((resolve, reject) => {})
+-Async Handling: Practiced delayed execution and repeated tasks using timers and Promise-based data handling.
+    Syntax: promise.then(data => console.log(data));

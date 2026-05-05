@@ -59,3 +59,7 @@
     Syntax: new Promise((resolve, reject) => {})
 -Async Handling: Practiced delayed execution and repeated tasks using timers and Promise-based data handling.
     Syntax: promise.then(data => console.log(data));
+-Practiced asynchronous JavaScript using fetch() to retrieve data from multiple public APIs and handle responses using .then() and .catch().
+    Syntax: fetch(url).then(res => res.json());
+-Applied array methods like map(), filter(), find(), and reduce() on API data to extract, transform, and analyze information.
+    Syntax: data.map(x => x.value);

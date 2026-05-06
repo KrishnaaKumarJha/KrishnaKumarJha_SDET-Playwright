@@ -55,3 +55,9 @@
 -------------------------------------------------------------DAY 5--------------------------------------------------------------------------------------------
 -Learned async/await for handling asynchronous operations and executing promises in a sequential manner.
 -Applied async/await with fetch() to retrieve and process API data using map(), filter(), find(), and reduce().
+-Learned Object-Oriented Programming (OOP) to organize code using classes and objects.
+-Understood access modifiers to control data visibility (public and private using #).
+-Encapsulation: Protecting data by restricting direct access and using methods.
+-Inheritance: Reusing properties and methods from one class to another.
+-Polymorphism: Using the same method name with different behaviors.
+-Abstraction: Hiding complex implementation and showing only essential features.

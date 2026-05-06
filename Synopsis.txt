@@ -15,11 +15,6 @@
     Syntax: for(let i = 0; i < arr.length; i++)
 -Applied conditional statements (if-else)
     Syntax: if(i > j) {}
--Used switch-case for multiple conditions
-    Syntax: switch(choice) {}
--Checked data types using typeof
-    Syntax: typeof value;
-
 -------------------------------------------------------------DAY 2--------------------------------------------------------------------------------------------
 -Used template literals for dynamic strings
     Syntax: Hello ${name};
@@ -45,13 +40,9 @@
     Syntax: acc[item] = (acc[item] || 0) + 1;
 -Practiced DOM manipulation to access and update HTML elements
     Syntax: document.getElementById("id");
--Built a simple login page using HTML, CSS, and JavaScript
-    Syntax: element.textContent = "message";
-
 -------------------------------------------------------------DAY 3--------------------------------------------------------------------------------------------
 -Practiced array methods like forEach(), map(), filter(), and reduce() for iteration, transformation, and data processing.
 -Combined multiple array methods and used reduce() for advanced tasks like aggregation and flattening arrays.
-
 -------------------------------------------------------------DAY 4--------------------------------------------------------------------------------------------
 -Synchronous vs Asynchronous: Learned difference between blocking (sync) and non-blocking (async) execution using setTimeout() and setInterval().
     Syntax: setTimeout(() => {}, 2000);
@@ -61,5 +52,6 @@
     Syntax: promise.then(data => console.log(data));
 -Practiced asynchronous JavaScript using fetch() to retrieve data from multiple public APIs and handle responses using .then() and .catch().
     Syntax: fetch(url).then(res => res.json());
--Applied array methods like map(), filter(), find(), and reduce() on API data to extract, transform, and analyze information.
-    Syntax: data.map(x => x.value);
+-------------------------------------------------------------DAY 5--------------------------------------------------------------------------------------------
+-Learned async/await for handling asynchronous operations and executing promises in a sequential manner.
+-Applied async/await with fetch() to retrieve and process API data using map(), filter(), find(), and reduce().

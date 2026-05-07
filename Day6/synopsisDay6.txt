@@ -1,0 +1,19 @@
+-Worked on real-world problem-solving using JavaScript by processing raw data and converting it into structured objects.
+    Syntax: arr.map(x => { return {key: value} });
+-Practiced string parsing and data transformation using split(), Number(), and JSON.stringify() for clean output formatting.
+    Syntax: str.split(":");
+-Applied validation and data cleaning techniques like handling invalid values using isNaN() and default assignments.
+    Syntax: isNaN(value) ? 0 : value;
+-Used array methods (map, filter, sort) together to build data pipelines for filtering and organizing information.
+    Syntax: arr.filter().sort();
+-Implemented callback functions to create reusable logic (e.g., promo eligibility, tax calculation).
+    Syntax: function callback(data) {}
+-Learned to modify objects dynamically using spread operator and conditional logic.
+    Syntax: { ...obj, newKey: value }
+-Performed calculations like discounts, totals, and net salary using reduce-like logic and accumulation variables.
+    Syntax: total += value;
+-Used template literals for dynamic output messages and summaries.
+    Syntax: Message ${value};
+-Simulated real-world async behavior using setTimeout and returning results via Promises.
+    Syntax: new Promise(resolve => setTimeout(resolve, time));
+-Combined async concepts with data processing to mimic backend-like operations (e.g., payroll, cart, analytics).

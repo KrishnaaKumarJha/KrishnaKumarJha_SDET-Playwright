@@ -1,0 +1,6 @@
+-Learned hoisting in JavaScript and understood how variables and functions are moved to the top during execution.
+    Syntax: console.log(a); var a = 10;
+-Practiced function hoisting where function declarations can be called before their definition.
+    Syntax: greet(); function greet(){}
+-Studied object prototyping and how objects can inherit properties and methods through prototypes.
+    Syntax: Object.create(obj);

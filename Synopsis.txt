@@ -61,3 +61,27 @@
 -Inheritance: Reusing properties and methods from one class to another.
 -Polymorphism: Using the same method name with different behaviors.
 -Abstraction: Hiding complex implementation and showing only essential features.
+-------------------------------------------------------------DAY 6--------------------------------------------------------------------------------------------
+-Worked on real-world problem-solving using JavaScript by processing raw data and converting it into structured objects.
+    Syntax: arr.map(x => { return {key: value} });
+-Practiced string parsing, data transformation, and validation using split(), Number(), JSON.stringify(), and isNaN().
+    Syntax: str.split(":");
+-Used array methods like map(), filter(), and sort() together to build data processing pipelines.
+    Syntax: arr.filter().sort();
+-Implemented callback functions and conditional logic for reusable operations like promo checks and tax calculation.
+    Syntax: function callback(data) {}
+-Learned object modification using spread operator and dynamic property updates.
+    Syntax: { ...obj, newKey: value }
+-Performed calculations like discounts, totals, and payroll processing using accumulation logic and template literals.
+    Syntax: total += value;
+-Simulated asynchronous backend-like operations using Promises and setTimeout().
+    Syntax: new Promise(resolve => setTimeout(resolve, time));
+-Understood Stack and Heap memory concepts for primitive and reference data storage in JavaScript.
+    Syntax: let a = 10; let obj = {};
+-------------------------------------------------------------DAY 7--------------------------------------------------------------------------------------------
+-Learned hoisting in JavaScript and understood how variables and functions are moved to the top during execution.
+    Syntax: console.log(a); var a = 10;
+-Practiced function hoisting where function declarations can be called before their definition.
+    Syntax: greet(); function greet(){}
+-Studied object prototyping and how objects can inherit properties and methods through prototypes.
+    Syntax: Object.create(obj);

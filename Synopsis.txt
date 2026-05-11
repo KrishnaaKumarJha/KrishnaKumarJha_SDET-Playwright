@@ -85,3 +85,30 @@
     Syntax: greet(); function greet(){}
 -Studied object prototyping and how objects can inherit properties and methods through prototypes.
     Syntax: Object.create(obj);
+-------------------------------------------------------------DAY 8--------------------------------------------------------------------------------------------
+-Practiced nested functions and variable scope using function calls inside another function.
+    Syntax: function outer() { function inner() {} }
+-Learned how global variables can be updated from inner functions using increment operations.
+    Syntax: sum++;
+-Understood execution flow and function returning concepts with nested function calls.
+    Syntax: return innerFunction();
+-Practiced rest parameters (...) to accept multiple values in functions dynamically.
+    Syntax: function demo(...args) {}
+-Learned array data processing using reduce() for arithmetic operations like sum, subtraction, multiplication, and division.
+    Syntax: arr.reduce((acc, curr) => acc + curr, 0);
+-Built a reusable calculator function using higher-order functions by passing operations as arguments.
+    Syntax: calculator(calc.sum, 1, 2, 3);
+-------------------------------------------------------------DAY 9--------------------------------------------------------------------------------------------
+-Learned advanced JavaScript concepts like default parameters, spread operator, rest parameter, and destructuring for flexible data handling.
+-Practiced async programming using Axios with async functions for API handling.
+-Started TypeScript basics including creating .ts files and compiling them using a TypeScript compiler.
+-Learned variable type definitions and union types for handling multiple data types safely.
+    Syntax: let a: number | string;
+-Practiced creating typed functions with defined parameter and return types in TypeScript.
+    Syntax: function add(a:number,b:number):number {}
+-Learned interfaces, optional properties, and enums to structure objects properly.
+    Syntax: interface Person { name:string; isAdmin?:boolean }
+-Practiced tuples and typed arrays for storing structured and fixed-type data.
+    Syntax: let roll:[string, number];
+-Learned TypeScript generics using generic functions and classes for reusable code components.
+    Syntax: function identity<T>(arg:T):T {}

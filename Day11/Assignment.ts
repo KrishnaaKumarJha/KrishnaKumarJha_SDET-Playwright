@@ -366,3 +366,158 @@ console.log("\nOther Events:");
 console.log(nonForm1);
 
 console.log(nonForm2);
+
+
+
+
+// 8. SAFE ASYNC FUNCTION WRAPPER
+
+/*
+Scenario:
+You want to wrap any asynchronous function
+with a standard error logger.
+
+Task:
+Write a generic function safeExecute<T>
+that takes an async function as an argument.
+
+It should return a new function that,
+when called, executes the original function
+inside a try/catch block
+and returns null if it fails.
+*/
+
+console.log("\n8. Safe Async Wrapper:");
+
+function safeExecute<
+    T extends (...args: any[]) => Promise<any>
+>(fn: T) {
+
+    return async (...args: Parameters<T>) => {
+
+        try {
+
+            return await fn(...args);
+
+        } catch (err) {
+
+            console.log(
+                "Function execution failed"
+            );
+
+            return null;
+        }
+    };
+}
+
+async function fetchUser() {
+
+    throw new Error("Server Error");
+}
+
+const safeFetchUser =
+    safeExecute(fetchUser);
+
+safeFetchUser();
+
+
+
+
+// 9. INDEX SIGNATURES
+
+/*
+Scenario:
+You are receiving a "Metadata" object from a server
+where the keys are dynamic strings,
+but the values must be either:
+- string
+- number
+- boolean
+
+Task:
+Create an interface UserMetadata
+that has a required:
+createdAt: Date
+
+but allows any other dynamic string keys
+as long as their values match the union type mentioned.
+*/
+
+console.log("\n9. Dynamic Metadata:");
+
+interface UserMetadata {
+
+    createdAt: Date;
+
+    [key: string]:
+        | string
+        | number
+        | boolean
+        | Date;
+}
+
+const userInfo: UserMetadata = {
+
+    createdAt: new Date(),
+
+    username: "Krishna",
+
+    age: 21,
+
+    premiumUser: true
+};
+
+console.log(userInfo);
+
+
+
+
+// 10. MAPPED TYPES WITH KEY REMAPPING
+
+/*
+Scenario:
+You have a data model and need to generate
+a type for an API response that "prefixes" all the keys.
+
+Task:
+Define an interface:
+Car {
+    make: string;
+    model: string;
+}
+
+Create a mapped type ApiResponse<T>
+that iterates through keys of T
+and renames them to be uppercase
+and prefixed with DATA_.
+
+Example:
+make becomes DATA_MAKE
+*/
+
+console.log("\n10. API Response Mapping:");
+
+interface Car {
+
+    make: string;
+
+    model: string;
+}
+
+type ApiResponse<T> = {
+
+    [K in keyof T as
+        `DATA_${Uppercase<string & K>}`]: T[K];
+};
+
+type CarResponse =
+    ApiResponse<Car>;
+
+const car: CarResponse = {
+
+    DATA_MAKE: "BMW",
+
+    DATA_MODEL: "X5"
+};
+
+console.log(car);

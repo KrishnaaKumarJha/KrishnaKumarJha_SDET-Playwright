@@ -112,3 +112,16 @@
     Syntax: let roll:[string, number];
 -Learned TypeScript generics using generic functions and classes for reusable code components.
     Syntax: function identity<T>(arg:T):T {}
+-------------------------------------------------------------DAY 10--------------------------------------------------------------------------------------------
+-Learned Type Aliases in TypeScript to create reusable custom data types.
+    Syntax: type User = { name:string; age:number };
+-Practiced utility types like Partial, Readonly, and Omit for modifying object properties easily.
+    Syntax: Partial<User>, Readonly<User>, Omit<User, "age">
+-Learned Readonly properties to prevent accidental modification of object values.
+    Syntax: readonly id:number;
+-Practiced Omit utility type to remove selected properties from existing types.
+    Syntax: type NewUser = Omit<User, "password">;
+-Learned Type Guarding techniques for checking data types safely during runtime.
+    Syntax: typeof value === "string"
+-Practiced advanced TypeScript concepts for writing safer and more structured code.
+-Got introduction to Express.js concepts including basic server-side development workflow and backend structure.

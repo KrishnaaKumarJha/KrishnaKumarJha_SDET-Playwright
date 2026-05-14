@@ -125,3 +125,15 @@
     Syntax: typeof value === "string"
 -Practiced advanced TypeScript concepts for writing safer and more structured code.
 -Got introduction to Express.js concepts including basic server-side development workflow and backend structure.
+-------------------------------------------------------------DAY 11--------------------------------------------------------------------------------------------
+-Practiced advanced TypeScript concepts through 10 coding-based problem solving questions covering generics, utility types, mapped types, conditional types, async functions, and type safety.
+-Worked on real-world TypeScript scenarios like API handling, role permissions, recursive types, union operations, async wrappers, and dynamic object structures.
+-Improved understanding of reusable and scalable TypeScript coding practices using utility types, interfaces, enums, and generics.
+-------------------------------------------------------------DAY 12--------------------------------------------------------------------------------------------
+-Got started with Playwright by installing and configuring the testing environment on the local system.
+-Learned the basics of software testing, automation testing, and how automated browser testing works.
+-Practiced running simple Playwright example programs to understand browser automation flow and execution.
+-Learned how Playwright uses JavaScript for writing automated test scripts and handling browser actions.
+    Syntax: page.goto("url");
+-Understood basic Playwright functionalities like launching browsers, interacting with pages, and executing tests.
+-Practiced the overall Playwright workflow including setup, execution, and test automation concepts for SDET development.

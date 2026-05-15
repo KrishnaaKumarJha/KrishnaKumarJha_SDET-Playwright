@@ -15,6 +15,7 @@
     Syntax: for(let i = 0; i < arr.length; i++)
 -Applied conditional statements (if-else)
     Syntax: if(i > j) {}
+
 -------------------------------------------------------------DAY 2--------------------------------------------------------------------------------------------
 -Used template literals for dynamic strings
     Syntax: Hello ${name};
@@ -40,9 +41,11 @@
     Syntax: acc[item] = (acc[item] || 0) + 1;
 -Practiced DOM manipulation to access and update HTML elements
     Syntax: document.getElementById("id");
+
 -------------------------------------------------------------DAY 3--------------------------------------------------------------------------------------------
 -Practiced array methods like forEach(), map(), filter(), and reduce() for iteration, transformation, and data processing.
 -Combined multiple array methods and used reduce() for advanced tasks like aggregation and flattening arrays.
+
 -------------------------------------------------------------DAY 4--------------------------------------------------------------------------------------------
 -Synchronous vs Asynchronous: Learned difference between blocking (sync) and non-blocking (async) execution using setTimeout() and setInterval().
     Syntax: setTimeout(() => {}, 2000);
@@ -52,6 +55,7 @@
     Syntax: promise.then(data => console.log(data));
 -Practiced asynchronous JavaScript using fetch() to retrieve data from multiple public APIs and handle responses using .then() and .catch().
     Syntax: fetch(url).then(res => res.json());
+
 -------------------------------------------------------------DAY 5--------------------------------------------------------------------------------------------
 -Learned async/await for handling asynchronous operations and executing promises in a sequential manner.
 -Applied async/await with fetch() to retrieve and process API data using map(), filter(), find(), and reduce().
@@ -61,6 +65,7 @@
 -Inheritance: Reusing properties and methods from one class to another.
 -Polymorphism: Using the same method name with different behaviors.
 -Abstraction: Hiding complex implementation and showing only essential features.
+
 -------------------------------------------------------------DAY 6--------------------------------------------------------------------------------------------
 -Worked on real-world problem-solving using JavaScript by processing raw data and converting it into structured objects.
     Syntax: arr.map(x => { return {key: value} });
@@ -78,6 +83,7 @@
     Syntax: new Promise(resolve => setTimeout(resolve, time));
 -Understood Stack and Heap memory concepts for primitive and reference data storage in JavaScript.
     Syntax: let a = 10; let obj = {};
+
 -------------------------------------------------------------DAY 7--------------------------------------------------------------------------------------------
 -Learned hoisting in JavaScript and understood how variables and functions are moved to the top during execution.
     Syntax: console.log(a); var a = 10;
@@ -85,6 +91,7 @@
     Syntax: greet(); function greet(){}
 -Studied object prototyping and how objects can inherit properties and methods through prototypes.
     Syntax: Object.create(obj);
+
 -------------------------------------------------------------DAY 8--------------------------------------------------------------------------------------------
 -Practiced nested functions and variable scope using function calls inside another function.
     Syntax: function outer() { function inner() {} }
@@ -98,6 +105,7 @@
     Syntax: arr.reduce((acc, curr) => acc + curr, 0);
 -Built a reusable calculator function using higher-order functions by passing operations as arguments.
     Syntax: calculator(calc.sum, 1, 2, 3);
+
 -------------------------------------------------------------DAY 9--------------------------------------------------------------------------------------------
 -Learned advanced JavaScript concepts like default parameters, spread operator, rest parameter, and destructuring for flexible data handling.
 -Practiced async programming using Axios with async functions for API handling.
@@ -112,6 +120,7 @@
     Syntax: let roll:[string, number];
 -Learned TypeScript generics using generic functions and classes for reusable code components.
     Syntax: function identity<T>(arg:T):T {}
+
 -------------------------------------------------------------DAY 10--------------------------------------------------------------------------------------------
 -Learned Type Aliases in TypeScript to create reusable custom data types.
     Syntax: type User = { name:string; age:number };
@@ -125,10 +134,12 @@
     Syntax: typeof value === "string"
 -Practiced advanced TypeScript concepts for writing safer and more structured code.
 -Got introduction to Express.js concepts including basic server-side development workflow and backend structure.
+
 -------------------------------------------------------------DAY 11--------------------------------------------------------------------------------------------
 -Practiced advanced TypeScript concepts through 10 coding-based problem solving questions covering generics, utility types, mapped types, conditional types, async functions, and type safety.
 -Worked on real-world TypeScript scenarios like API handling, role permissions, recursive types, union operations, async wrappers, and dynamic object structures.
 -Improved understanding of reusable and scalable TypeScript coding practices using utility types, interfaces, enums, and generics.
+
 -------------------------------------------------------------DAY 12--------------------------------------------------------------------------------------------
 -Got started with Playwright by installing and configuring the testing environment on the local system.
 -Learned the basics of software testing, automation testing, and how automated browser testing works.
@@ -137,3 +148,8 @@
     Syntax: page.goto("url");
 -Understood basic Playwright functionalities like launching browsers, interacting with pages, and executing tests.
 -Practiced the overall Playwright workflow including setup, execution, and test automation concepts for SDET development.
+
+-------------------------------------------------------------DAY 13--------------------------------------------------------------------------------------------
+Focused on building and testing a simple login page using Express.js and Playwright.
+Practiced automated test case creation for valid login, invalid login, and input validation scenarios including username/password length checks.
+Learned how Playwright interacts with a local Node.js backend server for browser automation testing.

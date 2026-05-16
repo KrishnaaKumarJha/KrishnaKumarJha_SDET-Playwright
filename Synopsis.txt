@@ -150,6 +150,14 @@
 -Practiced the overall Playwright workflow including setup, execution, and test automation concepts for SDET development.
 
 -------------------------------------------------------------DAY 13--------------------------------------------------------------------------------------------
-Focused on building and testing a simple login page using Express.js and Playwright.
-Practiced automated test case creation for valid login, invalid login, and input validation scenarios including username/password length checks.
-Learned how Playwright interacts with a local Node.js backend server for browser automation testing.
+-Focused on building and testing a simple login page using Express.js and Playwright.
+-Practiced automated test case creation for valid login, invalid login, and input validation scenarios including username/password length checks.
+-Learned how Playwright interacts with a local Node.js backend server for browser automation testing.
+
+-------------------------------------------------------------DAY 14--------------------------------------------------------------------------------------------
+-Studied Playwright architecture and understood how Playwright manages browser automation and test execution flow.
+-Practiced working with the playwright.config file to manage project settings and test configurations.
+-Learned different Playwright report types and how to change report formats for test execution results.
+-Practiced capturing and saving screenshots during test execution for debugging and reporting purposes.
+    Syntax: await page.screenshot({ path: "image.png" });
+-Learned basic error handling and debugging techniques while running automated Playwright test cases.

@@ -161,3 +161,12 @@
 -Practiced capturing and saving screenshots during test execution for debugging and reporting purposes.
     Syntax: await page.screenshot({ path: "image.png" });
 -Learned basic error handling and debugging techniques while running automated Playwright test cases.
+
+-------------------------------------------------------------DAY 15--------------------------------------------------------------------------------------------
+-Learned Playwright Codegen for automatically generating test scripts by recording browser actions.
+    Syntax: npx playwright codegen
+-Practiced Playwright annotations like skip, fail, slow, and fixme for controlling test execution behavior.
+    Syntax: test.skip(), test.fail(), test.fixme()
+-Learned how to manage slow-running tests and customize test execution timeout settings.
+    Syntax: test.setTimeout(10000);
+-Understood basic Playwright reporting and structured test execution flow using annotations and grouped test steps.

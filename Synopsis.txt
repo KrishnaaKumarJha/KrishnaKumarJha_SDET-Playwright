@@ -165,6 +165,10 @@
 -------------------------------------------------------------DAY 15--------------------------------------------------------------------------------------------
 -Learned Playwright Codegen for automatically generating test scripts by recording browser actions.
     Syntax: npx playwright codegen
+-Practiced Playwright execution modes like UI mode and debug mode for test monitoring and debugging.
+    Syntax: npx playwright test --ui
+-Learned different Playwright command line executions including debug testing and browser code generation.
+    Syntax: npx playwright test --debug
 -Practiced Playwright annotations like skip, fail, slow, and fixme for controlling test execution behavior.
     Syntax: test.skip(), test.fail(), test.fixme()
 -Learned how to manage slow-running tests and customize test execution timeout settings.

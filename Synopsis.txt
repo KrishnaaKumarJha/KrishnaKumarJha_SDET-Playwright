@@ -174,3 +174,23 @@
 -Learned how to manage slow-running tests and customize test execution timeout settings.
     Syntax: test.setTimeout(10000);
 -Understood basic Playwright reporting and structured test execution flow using annotations and grouped test steps.
+
+-------------------------------------------------------------DAY 16--------------------------------------------------------------------------------------------
+-Learned Playwright test lifecycle methods like beforeEach, afterEach, beforeAll, and afterAll for test setup and cleanup handling.
+    Syntax: test.beforeEach(async ({ page }) => {})
+-Practiced grouping related test cases using test.describe() for better test organization and execution flow.
+    Syntax: test.describe("Group Name", () => {})
+-Learned how to handle browser dialog boxes like alerts using Playwright dialog events.
+    Syntax: page.on('dialog', dialog => dialog.accept())
+-Practiced automated testing for login forms using multiple test datasets and validation scenarios.
+-Learned locator handling, form filling, button actions, and assertion validation using Playwright.
+    Syntax: await expect(locator).toHaveText("Login successful")
+
+-------------------------------------------------------------DAY 17--------------------------------------------------------------------------------------------
+-Learned Playwright assertions including hard assertions and soft assertions for validating test results and application behavior.
+    Syntax: await expect(locator).toContainText("Text")
+-Practiced authentication handling in Playwright using cookies and local storage to maintain logged-in sessions.
+-Learned how to save and reuse browser authentication state for avoiding repeated login steps in automated tests.
+    Syntax: await page.context().storageState({ path: 'user.json' })
+-Practiced authenticated test execution using saved session data and verified secure page access after login.
+    Syntax: test.use({ storageState: 'playwright/.auth/user.json' })

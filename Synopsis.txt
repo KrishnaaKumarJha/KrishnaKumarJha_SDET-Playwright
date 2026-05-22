@@ -194,3 +194,13 @@
     Syntax: await page.context().storageState({ path: 'user.json' })
 -Practiced authenticated test execution using saved session data and verified secure page access after login.
     Syntax: test.use({ storageState: 'playwright/.auth/user.json' })
+
+-------------------------------------------------------------DAY 19--------------------------------------------------------------------------------------------
+-Learned Playwright Page Object Model (POM) structure for creating reusable and maintainable automation test code.
+-Practiced creating separate page classes with locators and reusable methods for login page automation.
+    Syntax: class LoginPage {}
+-Learned Playwright fixtures for preparing reusable test setup and sharing browser/page configurations across test cases.
+    Syntax: const test = base.extend({})
+-Practiced automated login testing using valid and invalid credential scenarios with reusable POM methods.
+-Learned parallel test execution and fixture-based page preparation for efficient automated testing workflows.
+    Syntax: test.describe.configure({ mode: 'parallel' })

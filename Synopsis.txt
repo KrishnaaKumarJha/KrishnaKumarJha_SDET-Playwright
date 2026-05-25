@@ -204,3 +204,12 @@
 -Practiced automated login testing using valid and invalid credential scenarios with reusable POM methods.
 -Learned parallel test execution and fixture-based page preparation for efficient automated testing workflows.
     Syntax: test.describe.configure({ mode: 'parallel' })
+
+-------------------------------------------------------------DAY 21--------------------------------------------------------------------------------------------
+-Learned authentication handling in Playwright using saved browser session state for accessing already logged-in applications.
+    Syntax: test.use({ storageState: 'auth.json' });
+-Practiced handling real-world automation scenarios like CAPTCHA limitations and authenticated website testing.
+-Learned how to automate profile validation and search functionality testing on live web applications using Playwright.
+-Practiced element locating, text validation, keyboard actions, and assertion handling in Playwright.
+    Syntax: await expect(locator).toHaveText("Expected Text")
+-Learned how to generate and view Allure reports for better test reporting and execution analysis.

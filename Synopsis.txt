@@ -213,3 +213,11 @@
 -Practiced element locating, text validation, keyboard actions, and assertion handling in Playwright.
     Syntax: await expect(locator).toHaveText("Expected Text")
 -Learned how to generate and view Allure reports for better test reporting and execution analysis.
+
+-------------------------------------------------------------DAY 24--------------------------------------------------------------------------------------------
+-Learned the basics of Agentic AI and its integration with Playwright for intelligent browser automation workflows.
+-Practiced using AI-powered automation with the ZeroStep Playwright library for executing actions through natural language instructions.
+    Syntax: await ai('click on Downloads', { page, test });
+-Practiced environment variable configuration and secure token-based authentication for AI automation integration.
+    Syntax: process.env.ZEROSTEP_TOKEN
+-Understood the concept of AI-driven browser automation for handling complex user workflows and smart test execution.
